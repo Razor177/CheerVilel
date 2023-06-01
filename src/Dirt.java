@@ -9,7 +9,7 @@ public class Dirt extends UnMoveable{
 
     /**
      * Dirt
-     * constructor which just makes a Dirt object (has impossible values and just used in decision making, never made and applied to game )
+     * constructor which just makes a Dirt object (has impossible values and ju st used in decision making, never made and applied to game )
 
      */
     public Dirt() {

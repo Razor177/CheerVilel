@@ -75,7 +75,7 @@ public class Zombie extends Moveable {
 
         Human targetHuman = (Human) otherObject;
 
-        if (this.getHealth() > targetHuman.getHealth()) { // if the zombies health is greater than the humans health
+        if (this.getHealth() > targetHuman.getHealth()) { // if the zombies health is greate r than the humans health
             this.setHealth(this.getHealth() + targetHuman.getHealth()); // add the humans health to the xombies health
             map[targetHuman.getY()][targetHuman.getX()] = this; // moves the zombie onto the map where the human was
             setDirt(map, this.getX(), this.getY(), this.getMaxAge()/10); // leave dirt where we were
